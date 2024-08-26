@@ -4,8 +4,8 @@ function showMessage() {
     message.style.display = 'block';
 }
 
-// Set a timeout to show the message after 5 seconds (5000 milliseconds)
+// Set a timeout to show the message after 3 seconds (3000 milliseconds)
 setTimeout(function() {
     console.log('Delay complete');
     showMessage();
-}, 5000);
+}, 3000);
