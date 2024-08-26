@@ -1,0 +1,80 @@
+body {
+    background-color: #e5cae7; /* Light purple color */
+    font-family: Arial, sans-serif; /* Optional: Sets a default font */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Optional: Sets a default text color */
+}
+
+.nextpage-header h1 {
+    font-family: "Delicious Handrawn", cursive;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.letter {
+    max-width: 800px;
+    margin: 20px 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.letter p {
+    font-family: "Noto Serif SC", serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    margin: 15px 0;
+}
+
+.bottom-right-image {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    width: 500px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px;
+}
+
+h2 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #090276;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.next-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #3498db; /* Button color */
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left: 20px;
+}
+
+.next-button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+h3 {
+    font-family: "Libre Barcode 39", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    bottom: 0; /* Align to the bottom of the container (body in this case) */
+    left: 0; /* Align to the left of the container */
+    margin: 80px; /* Optional: Add some margin for spacing from the edges */
+    margin-left: 20px;
+}

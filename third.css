@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure body takes full height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: Arial, sans-serif;
+    background-color: #e5cae7;
+}
+
+
+.message {
+    display: none; /* Hidden initially */
+    font-size: 2em; /* Sets the font size to 2 times the size of the surrounding text */
+    font-family: "Noto Serif SC", serif;
+    color: #333; /* Sets the text color to a dark gray (#333) */
+    background-color: #f0f0f0; /* Sets the background color to a light gray (#f0f0f0) */
+    padding: 20px; /* Adds 20 pixels of padding inside the element */
+    border-radius: 8px; /* Rounds the corners of the element with an 8-pixel radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a shadow effect around the element with 10 pixels of blur */
+}
+
+h3 {
+    font-family: "Libre Barcode 39", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute; /* Position the h3 element absolutely */
+    bottom: 0; /* Align to the bottom of the container (body in this case) */
+    left: 0; /* Align to the left of the container */
+    margin: 10px; /* Optional: Add some margin for spacing from the edges */
+}
+

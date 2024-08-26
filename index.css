@@ -1,0 +1,75 @@
+body {
+    background-color: #fafaca; /* Light purple color */
+    font-family: Arial, sans-serif; /* Optional: Sets a default font */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Optional: Sets a default text color */
+}
+
+.homepage-header {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #acf0aa; /* Dark, rich background to evoke depth */
+    color: #000000; /* Light, contrasting text color */
+    border-radius: 12px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.9); /* Strong shadow for depth */
+}
+
+
+.homepage-header h1 {
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.homepage-header h2 {
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    font-size: 1.6em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #000000; /* Bright accent color for emphasis */
+}
+
+ h3 {
+    font-family: "Libre Barcode 39", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    bottom: 0; /* Align to the bottom of the container (body in this case) */
+    left: 0; /* Align to the left of the container */
+    margin: 20px; /* Optional: Add some margin for spacing from the edges */
+}
+
+.homepage-header p {
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    font-size: 1.2em;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-family: "ZCOOL QingKe HuangYou", sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #3498db; /* Button color */
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.start-button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.decorative-image {
+    width: 50%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensures no extra space below the image */
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 20px; /* Spacing below the image */
+}
