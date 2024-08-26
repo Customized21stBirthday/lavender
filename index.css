@@ -1,3 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 100%; /* Full width on mobile */
+}
+
+@media (min-width: 768px) {
+    .item {
+        flex: 1 1 50%; /* Half width on larger screens */
+    }
+}
+
 body {
     background-color: #fafaca; /* Light purple color */
     font-family: Arial, sans-serif; /* Optional: Sets a default font */
