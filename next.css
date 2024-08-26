@@ -73,8 +73,8 @@ h3 {
     font-family: "Libre Barcode 39", system-ui;
     font-weight: 400;
     font-style: normal;
-    bottom: 0; /* Align to the bottom of the container (body in this case) */
-    left: 0; /* Align to the left of the container */
-    margin: 80px; /* Optional: Add some margin for spacing from the edges */
-    margin-left: 20px;
+    position: fixed; /* Position relative to the viewport */
+    bottom: 0; /* Align to the bottom of the viewport */
+    left: 0; /* Align to the left of the viewport */
+    margin: 20px; /* Add some spacing from the edges */
 }
